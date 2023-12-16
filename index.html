@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col items-center justify-center h-screen">
+    <!-- LOGIN  -->
+    <main class="flex flex-col items-center justify-center shadow-[0_3px_10px_rgb(0,0,0,0.1)] rounded-xl w-2/6 h-3/4">
+        <h1 class="">LOGIN DE CONTA</h1>
+        <form action="src/listar.php" method="post" class="flex flex-col h-2/4">
+                <label for="email">Email</label>
+                <input class="border border-neutral-800 h-1/6 focus:border-red-700 focus:outline-none px-2" type="email" name="email" id="email">
+                <label class="mt-2" for="senha">Senha</label>
+                <input class="border border-neutral-800 h-1/6 mb-2 focus:border-red-700 focus:outline-none px-2" type="password" name="senha" id="senha">
+            <div class="flex gap-20">
+                <div>
+                    <input class="accent-red-700" type="checkbox" name="esqueceu" id="lembrar">
+                    <label for="lembrar">Lembre de mim</label>
+                </div>
+                <a class="hover:text-red-700 hover:underline" href="#">Esqueceu a senha?</a>
+            </div>
+            <input class="mt-5 bg-red-600 py-3 text-white hover:bg-red-700 cursor-pointer rounded-md" type="submit" value="Login">
+        </form>
+        <p class="flex mt-2">Não tem uma conta?<a class="text-red-700 hover:underline ml-2" href="cadastro.html">Cadastre-se</a></p>
+    </main>
+</body>
+</html>
