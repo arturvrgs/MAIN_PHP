@@ -42,7 +42,7 @@
         </div>
         <div class="flex h-2/4 p-10 gap-10 items-center">
                 <a href="materiais.php" class="mt-5 bg-red-800 py-6 w-full text-center text-white hover:bg-red-700 cursor-pointer rounded-md">Materiais</a>
-                <a href="#" class="mt-5 bg-red-800 py-6 w-full text-center text-white hover:bg-red-700 cursor-pointer rounded-md">Bate-Papo</a>
+                <a href="chat.php" class="mt-5 bg-red-800 py-6 w-full text-center text-white hover:bg-red-700 cursor-pointer rounded-md">Bate-Papo</a>
                 <a href="#" class="mt-5 bg-red-800 py-6 w-full text-center text-white hover:bg-red-700 cursor-pointer rounded-md">Usuários</a>
         </div>
    </div>
